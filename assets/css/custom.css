@@ -1,0 +1,228 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+body {
+	text-transform: capitalize
+}
+
+.page-container {
+    padding-left: 0;
+  }
+
+.page-container .main-content, footer.main .copyright {
+    position: relative;
+    float: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding:0;
+    z-index: 2;
+    background: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* for dropdown menus */
+    .page-container nav .dropdown .dropdown-menu{
+        background-color: #303641;
+    }
+
+    .page-container nav .dropdown .dropdown-menu .has-submenu ul{
+        display: none;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        position: relative;
+        padding: 7px;
+        margin-right:20px;
+        z-index: 1;
+        float: right;
+        
+    }
+
+    
+
+    .page-container nav .dropdown .dropdown-menu li.has-submenu:hover ul{
+        background-color: transparent;
+        display:block;
+    }
+
+    .page-container nav .dropdown .dropdown-menu li.has-submenu ul li a:hover{
+       background-color:  #a0a5af;
+       margin:7px;
+       padding:5px;
+       border-bottom-left-radius: 7px;
+       border-top-right-radius: 7px;
+    }
+
+/* End of Dropdown Styles */
+
+.page-container.sidebar-collapsed {
+    padding-left: 0;
+  }
+
+body #main-menu a{
+    color: #ffffff
+}
+body #main-menu .tile .dropdown ul.dropdown-menu li a{
+    color:black
+}
+
+div .tile{
+display: block;
+color:white;
+margin-bottom:10px;
+
+}
+
+.tile li{
+    list-style: none;
+}
+
+.tile li.lv1{padding:20px;
+-webkit-border-radius: 15px 50px;
+-moz-border-radius: 15px 50px;
+    border-radius: 15px 50px;}
+
+.tile .dropdown ul.dropdown-menu li a{
+    color:black;
+    list-style: none;
+    background-color: white;
+}
+
+.tile .dropdown ul.dropdown-menu li{
+    list-style: none;
+    
+}
+
+.page-container nav ul#main-menu li.nav-item{
+    background-color: #a0a5af;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-weight: bold;
+    margin-top:4px;
+    padding:4px;
+}
+/*increase size of account type icon */
+.page-container nav .profileLink ul li.link a i{
+    font-family: 'Entypo';
+    font-size: 15px;
+    
+}
+
+.page-container nav ul#main-menu li.dropdown a.nav-link span i{
+  
+   display: inline-block;
+   padding-left:7px;
+    color: #75740c;
+    float: right;
+    font-size: 15px;
+}
+/*
+.page-container nav ul#main-menu .dropdown a{
+    content: '\e877';
+    content: '\e879';
+    display: inline-block;
+    font-family: 'Entypo';
+    color: #454a54;
+    color: #FFF;
+    float: right;
+    font-size: 15px;
+    margin-left: 13px;
+}*/
+
+.page-container nav .profileLink ul li a{
+    color: #ffffff;
+    font-weight:Bold;
+    font-style: italic;
+}
+
+.page-container .navbar {
+    
+    background: #303641;
+    color: #aaabae;
+    
+    z-index: 99;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+.page-container div h2.sysname{
+    font-weight:200; 
+    margin-top:30px;
+    margin-left:0;
+    margin-right:0
+    
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #0f5a25;
+}
+
+.page-container .navbar .nav-item{
+    margin-left: 7px;
+}
+
+.navbar-toggle{
+    background-color: #aaabae;
+}
+
+
+/* Tablets Only*/
+@media (min-width: 767px) and (max-width: 992px) {
+  .page-container.horizontal-menu header.navbar .navbar-nav > li > a {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .page-container.horizontal-menu header.navbar .navbar-nav > li > a i + span {
+    display: none;
+  }
+  .page-container.Xhorizontal-menu header.navbar .navbar-nav li a,
+  .page-container.Xhorizontal-menu header.navbar .navbar-nav li ul li a,
+  .page-container.Xhorizontal-menu header.navbar ul.nav > li > a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 11px;
+  }
+  .page-container.Xhorizontal-menu header.navbar ul > li#search .search-input {
+    width: 150px;
+  }
+  .page-container.Xhorizontal-menu header.navbar ul.nav > li.dropdown .dropdown-menu {
+    width: 315px;
+  }
+
+  .page-container div h2.sysname{
+    align-content: center;
+    text-align: center;
+    
+}
+}
+
+/*small devices*/
+@media (max-width: 767px){
+    .page-container .main-content {
+        position: relative;
+        float: center;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 10px;
+        z-index: 2;
+        background: #ffffff;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .page-container div h2.sysname{
+        font-weight:150; 
+        margin:0px;
+        align-content: center;
+        text-align: center;
+
+    }
+
+
+}
